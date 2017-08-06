@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.navigation-btn  {
+  padding: 10px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.navigation-btn:hover {
+  background-color: #ccc;
+}
+
+.navigation-duration {
+  background-color: #ccc;
+  margin-left: 10px;
+  padding: 10px;
+}
+
+.cell {
+  display: inline-block;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  width: 150px;
+}
+
+.cell:nth-child(2n) {
+  background-color: rgba(240,240,240,1);
+}
+
+.calendar {
+  margin-top: 10px;
+  white-space: nowrap;
+}
+
+.calendar-header {
+  box-shadow: 0 2px 9px #ccc;
+  border-top: 1px solid #ccc;
+}
+
+.calendar-header .cell {
+  border: none;
+  /*background-color: transparent;*/
+}
+
+
+.calendar .data-cell {
+  border: none;
+  border-bottom: 1px dashed #ccc;
+  padding: 0;
+  display: inline-block;
+  height: 33px;
+}
+
+.calendar .row-head {
+  height: 28px;
+}
+
+.occupancy {
+  display: block;
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  /*margin: 5px;*/
+  color: transparent;
+  /*height: 30px;*/
+}
+
+.occupancy.occupied {
+  background: green;
+  color: #fff;
+}
